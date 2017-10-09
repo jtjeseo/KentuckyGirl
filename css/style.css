@@ -1,0 +1,84 @@
+/* ================================= 
+  Body
+==================================== */
+
+body {
+	background-color: #FFFFFF;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+h1 {
+	text-align: center;
+	margin: 0;
+}
+
+#logo {
+	display: inline;
+	width: 25%;
+	padding: 2em 0 1em 0;
+	float: left;
+}
+
+
+/* ================================= 
+  Main-navigation, Secondary-navigation and Search Bar
+==================================== */
+
+#main-nav,
+#sec-nav {
+	display: inline;
+	padding-top: 60px;
+}
+
+#main-nav ul,
+#sec-nav ul {
+	list-style-image: none;
+	padding-top: 1em;
+	width: 60%;
+	list-style-type: none;
+	padding-left: 0;
+	display: inline;
+}
+#main-nav {
+	float: left;
+	margin: auto;
+}
+#sec-nav {
+	float: right;
+	margin: auto;
+}
+
+#main-nav li,
+#sec-nav li {
+	display: inline;
+	padding: 0px 10px 0px 10px;
+}
+
+#main-nav a,
+#sec-nav a {
+	text-decoration: none;
+	color: black;
+}
+
+#main-nav a:hover,
+#sec-nav a:hover {
+	color: darkgray;
+}
+
+#searchbar {
+	float: right;
+	text-decoration: none;
+	padding-top: 50px;
+	display: inline;
+}
+
+hr {
+	display: block;
+	width: 70%;
+}
+
+
+/* ================================= 
+  Media Queries
+==================================== */
