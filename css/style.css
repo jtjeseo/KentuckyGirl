@@ -13,17 +13,21 @@ h1 {
 	margin: 0;
 }
 
-#logo {
-	display: inline;
-	width: 25%;
-	padding: 2em 0 1em 0;
-	float: left;
+#update-form {
+	margin: auto;
 }
 
 
 /* ================================= 
   Main-navigation, Secondary-navigation and Search Bar
 ==================================== */
+
+#logo {
+	display: inline;
+	width: 25%;
+	padding: 2em 0 1em 0;
+	float: left;
+}
 
 #main-nav,
 #sec-nav {
@@ -40,10 +44,12 @@ h1 {
 	padding-left: 0;
 	display: inline;
 }
+
 #main-nav {
 	float: left;
 	margin: auto;
 }
+
 #sec-nav {
 	float: right;
 	margin: auto;
