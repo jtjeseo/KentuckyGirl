@@ -4,7 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kentucky Girl</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <script src="javascript/"></script>
@@ -12,32 +12,45 @@
 
 <body>
     <!-- LOGO -->
-    <div class="container">
-        <a href="home.html"><img id="logo" src="images/logo.png"></a>
-        <!-- MAIN NAVIGATION -->
-        <div id="main-nav">
-            <ul>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">CONTACT</a></li>
+    <div class="header">
+        <div class="container">
+            <a href="home.html">
+                <img id="logo" src="images/logo.png">
+            </a>
+            <!-- MAIN NAVIGATION -->
+            <div id="main-nav">
+                <ul>
+                    <li>
+                        <a href="#">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">CONTACT</a>
+                    </li>
 
-            </ul>
-        </div>
-        <!-- SEARCH BAR -->
-        <div id="searchbar">
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search">
+                </ul>
+            </div>
+            <!-- SEARCH BAR -->
+            <div id="searchbar">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+            </div>
+            <div id="sec-nav">
+                <ul>
+                    <li>
+                        <a href="archive.html">ARCHIVE</a>
+                    </li>
+                    <li>
+                        <a href="updates.html">UPDATES</a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div id="sec-nav">
-            <ul>
-                <li><a href="#">ARCHIVE</a></li>
-                <li><a href="updates.html">UPDATES</a></li>
-            </ul>
-        </div>
-
+        <hr>
     </div>
-    <hr>
 
     <!-- BODY -->
     <div class="container">
@@ -54,10 +67,51 @@
                 <label for="InputEmail1">Email address</label>
                 <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#SubmitButton">Submit</button>
         </form>
     </div>
 
+    <!-- Modal -->
+    <div class="modal fade" id="SubmitButton" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ModalLongTitle">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="social-footer">
+        <div class="container text-center">
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/laurahartcochran">FACEBOOK</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/laurahartcochran/?hl=en">INSTAGRAM</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- Bootstrap Script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

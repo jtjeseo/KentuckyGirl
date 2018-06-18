@@ -6,41 +6,110 @@
 	<title>Kentucky Girl</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
 	    crossorigin="anonymous">
+	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 	<script src="javascript/"></script>
 </head>
 
 <body>
 	<!-- LOGO -->
-	<div class="container">
-		<img id="logo" src="images/logo.png">
-		<!-- MAIN NAVIGATION -->
-		<div id="main-nav">
-			<ul>
-				<li><a href="#">ABOUT</a></li>
-				<li><a href="#">BLOG</a></li>
-				<li><a href="contact.html">CONTACT</a></li>
+	<div class="header">
+		<div class="container">
+			<a href="home.html">
+				<img id="logo" src="images/logo.png">
+			</a>
+			<!-- MAIN NAVIGATION -->
+			<div id="main-nav">
+				<ul>
+					<li>
+						<a href="#">ABOUT</a>
+					</li>
+					<li>
+						<a href="blog.html">BLOG</a>
+					</li>
+					<li>
+						<a href="contact.html">CONTACT</a>
+					</li>
 
-			</ul>
-		</div>
-		<!-- SEARCH BAR -->
-		<div id="searchbar">
-			<div class="form-group">
-				<input type="text" class="form-control" placeholder="Search">
+				</ul>
+			</div>
+			<!-- SEARCH BAR -->
+			<div id="searchbar">
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Search">
+				</div>
+			</div>
+			<div id="sec-nav">
+				<ul>
+					<li>
+						<a href="archive.html">ARCHIVE</a>
+					</li>
+					<li>
+						<a href="updates.html">UPDATES</a>
+					</li>
+				</ul>
 			</div>
 		</div>
-		<div id="sec-nav">
+		<hr>
+	</div>
+
+	<!--CONTENT-->
+	<div class="container">
+		<div class="row blog-row">
+			<div class="col col-centered">
+				<img src="images/cookies.jpeg" alt="cookies" id="blog-preview-img">
+				<br>
+				<p class="blog-title">Amazing Chocolate Chip Cookies</p>
+				<p class="blog-date">Yesterday</p>
+			</div>
+			<div class="col col-centered">
+				<img src="images/ing.jpg" alt="ingredients" id="blog-preview-img">
+				<br>
+				<p class="blog-title">Using the Best Ingredients for the Best Recipes</p>
+				<p class="blog-date">June 6, 2018</p>
+			</div>
+			<div class="col col-centered">
+				<img src="images/whisk.jpeg" alt="whisk" id="blog-preview-img">
+				<br>
+				<p class="blog-title">What Tools Should I Have in My Kitchen?</p>
+				<p class="blog-date">May 28, 2018</p>
+			</div>
+		</div>
+		<!-- NEW ROW-->
+		<div class="row blog-row">
+			<div class="col col-centered">
+				<img src="images/cookies.jpeg" alt="cookies" id="blog-preview-img">
+				<br>
+				<p class="blog-title">Amazing Chocolate Chip Cookies</p>
+				<p class="blog-date">Yesterday</p>
+			</div>
+			<div class="col col-centered">
+				<img src="images/ing.jpg" alt="ingredients" id="blog-preview-img">
+				<br>
+				<p class="blog-title">Using the Best Ingredients for the Best Recipes</p>
+				<p class="blog-date">June 6, 2018</p>
+			</div>
+			<div class="col col-centered">
+				<img src="images/whisk.jpeg" alt="whisk" id="blog-preview-img">
+				<br>
+				<p class="blog-title">What Tools Should I Have in My Kitchen?</p>
+				<p class="blog-date">May 28, 2018</p>
+			</div>
+		</div>
+	</div>
+	<!-- FOOTER -->
+	<footer class="footer" id="social-footer">
+		<div class="container text-center">
 			<ul>
-				<li><a href="#">ARCHIVE</a></li>
-				<li><a href="updates.html">UPDATES</a></li>
+				<li>
+					<a href="https://www.facebook.com/laurahartcochran">FACEBOOK</a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/laurahartcochran/?hl=en">INSTAGRAM</a>
+				</li>
 			</ul>
 		</div>
-
-	</div>
-	<hr>
-
-
-
+	</footer>
 </body>
 
 
