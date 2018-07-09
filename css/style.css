@@ -77,6 +77,20 @@ h1 {
 	width: 50%;
 }
 
+.col-6 img{
+	max-width: 100%;
+	height: auto;
+}
+.soc-icon {
+	width: 65px;
+	height: auto;
+	margin: auto;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.footer-soc {
+	display: inline-block;
+}
 /* ================================= 
   Main-navigation, Secondary-navigation and Search Bar
 ==================================== */
@@ -153,12 +167,12 @@ hr {
 
 #social-footer {
 	position: fixed;
-	padding-top: 1em;
+	padding-top: .2em;
 	display: inline;
 	bottom: 0;
 	width: 100%;
 	height: 60px;
-	background-color: rgba(150, 173, 247, 0.9)
+	background-color: rgba(153, 185, 208, 0.9)
 }
 
 .accordion {
