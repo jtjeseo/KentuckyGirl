@@ -84,12 +84,14 @@ h1 {
 .soc-icon {
 	width: 65px;
 	height: auto;
-	margin: auto;
 	padding-left: 5px;
 	padding-right: 5px;
+	display: inline-block;
 }
 .footer-soc {
-	display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 /* ================================= 
   Main-navigation, Secondary-navigation and Search Bar
@@ -208,3 +210,4 @@ hr {
 /* ================================= 
   Media Queries
 ==================================== */
+
