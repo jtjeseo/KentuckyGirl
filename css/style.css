@@ -88,11 +88,6 @@ h1 {
 	padding-right: 5px;
 	display: inline-block;
 }
-.footer-soc {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
 /* ================================= 
   Main-navigation, Secondary-navigation and Search Bar
 ==================================== */
@@ -167,6 +162,11 @@ hr {
   Footer
 ==================================== */
 
+.footer-soc {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 #social-footer {
 	position: fixed;
 	padding-top: .2em;
@@ -176,6 +176,10 @@ hr {
 	height: 60px;
 	background-color: rgba(153, 185, 208, 0.9)
 }
+
+/* ================================= 
+  Accordion on Archive Page
+==================================== */
 
 .accordion {
 	background-color: #eee;
@@ -226,5 +230,22 @@ hr {
 	.navbar-mobile{
 		display: block;
 		padding-bottom: 1em;
+	}
+	#searchbar-mobile {
+		/* text-decoration: none; */
+		padding-top: 1em;
+		display: inline;
+	}
+	footer, .container{
+		padding-bottom: 3em;
+	}
+	#laura-pic {
+		width: 75%;
+		margin: auto;
+	}
+	.contact-text {
+		 flex: none;
+		 max-width: 95%;;
+		 margin-top: 1em;
 	}
   }
