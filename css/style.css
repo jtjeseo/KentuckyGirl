@@ -211,3 +211,20 @@ hr {
   Media Queries
 ==================================== */
 
+.navbar-mobile {
+	display: none;
+}
+@media screen and (max-width: 600px) {
+	.navbar-desktop{
+		display: none;
+	}
+	#logo-mobile {
+		display: inline;
+		width: 100%;
+		padding: 0 .5em 0 .5em;
+	}
+	.navbar-mobile{
+		display: block;
+		padding-bottom: 1em;
+	}
+  }
