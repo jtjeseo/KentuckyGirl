@@ -24,6 +24,17 @@
 
 #blog-preview-img {
 	width: 300px;
+	-webkit-transition: scale 2s ease-out;
+	-moz-transition: scale 2s ease-out;
+	-o-transition: scale 2s ease-out;
+	transition: scale 2s ease-out;
+}
+
+#blog-preview-img:hover {
+	transform: scale(1.03);
+	cursor: pointer;
+	opacity: 0.8;
+
 }
 
 .col-centered {
@@ -54,6 +65,16 @@
 
 .container{
 	padding-bottom: 30px;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: darkgrey;
+	text-decoration: none;
 }
 
 /* ================================= 
