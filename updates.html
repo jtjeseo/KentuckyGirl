@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/formfun.js"></script>
 </head>
 
 <body>
@@ -99,7 +100,7 @@
         <form id "update-form">
             <div class="row">
                 <div class="form-group col-md-6 mb-3">
-                    <input type="text" class="form-control" placeholder="First Name">
+                    <input type="text" class="form-control" id="firstNameInput" placeholder="First Name">
                 </div>
                 <div class="form-group col-md-6 mb-3">
                     <input type="text" class="form-control" placeholder="Last Name">
@@ -109,7 +110,7 @@
                 <label for="InputEmail1">Email address</label>
                 <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
             </div>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#SubmitButton">Submit</button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#SubmitButton" onclick="getvalue()">Submit</button>
         </form>
     </div>
 
@@ -118,13 +119,13 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="ModalLongTitle">Thank You!</h5>
+                    <h5 class="modal-title" id="ModalLongTitle">You didn't type your first name</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    Be on the look out for emails! Lots of good things to come.
+                    <p id="messageForm">Be on the look out for emails! Lots of good things to come.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary" data-dismiss="modal">Okay!</button>
@@ -157,6 +158,7 @@
     </footer>
 
     <!-- Bootstrap Script -->
+    <script src="js/formfun.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
