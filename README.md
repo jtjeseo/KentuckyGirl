@@ -9,4 +9,3 @@ This is a project for the Front-End Web Develpment course offered by Code Louisv
 The preview of this site is available **[HERE](https://jtjeseo.github.io/KentuckyGirl "The Kentucky Girl")**.
 
 *-Jared# jtjeseo.github.io*
- 
