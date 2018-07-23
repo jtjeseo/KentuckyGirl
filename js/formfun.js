@@ -10,3 +10,4 @@ function getvalue() {
     document.getElementById("ModalLongTitle").innerHTML = "Thank you " + firstName + "!";
     document.getElementById("messageForm").innerHTML = "You'll be receiving an email at " + userEmail + " soon! Be on the look out for emails! Lots of good things to come.";
 }
+
