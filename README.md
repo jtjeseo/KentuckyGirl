@@ -4,8 +4,6 @@ This a website that I am doing for a friend. It is a template that the client wi
 
 Feel free to look around. There is a JS function on the update page and also has a mobile version on smaller screens.
 
-This repo is a project for the Front-End Web Development course offered by Code Louisville and Treehouse.
-
 The preview of this site is available **[HERE](https://jtjeseo.github.io/KentuckyGirl "The Kentucky Girl")**.
 
 ## Javascript Functionality
